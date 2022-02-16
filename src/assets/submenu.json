@@ -1,0 +1,14 @@
+[
+    {
+      "type": "yuwen",
+      "name":"语文"
+    },
+    {
+      "type": "shuxue",
+      "name":"数学"
+    },
+    {
+      "type": "yingyu",
+      "name":"英语"
+    }
+  ]

@@ -1,0 +1,14 @@
+<nz-layout class="inner-layout">
+    <nz-breadcrumb style="padding: 20px;">
+        <nz-breadcrumb-item>视频列表</nz-breadcrumb-item>
+        <nz-breadcrumb-item>{{ menu?.name }}</nz-breadcrumb-item>
+        <nz-breadcrumb-item><a [routerLink]="['/video-list', type1, type2]" routerLinkActive="router-link-active" >{{ submenu?.name }}</a></nz-breadcrumb-item>
+        <nz-breadcrumb-item>详情</nz-breadcrumb-item>
+      </nz-breadcrumb>
+<nz-content style="text-align: center;">
+    <iframe [src]="url|safe" 
+    scrolling="no"  frameborder="no" framespacing="0" allowfullscreen="true" width="95%" height="680" allowfullscreen> </iframe>
+
+</nz-content>
+</nz-layout>
+
