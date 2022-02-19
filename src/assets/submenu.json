@@ -10,5 +10,9 @@
     {
       "type": "yingyu",
       "name":"英语"
+    },
+    {
+      "type":"kexue",
+      "name":"科学"
     }
   ]

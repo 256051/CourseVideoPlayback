@@ -12,21 +12,8 @@
       </a>
     </div>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed" *ngFor="let menu of menus | async">
-      <!-- <li nz-submenu nzOpen nzTitle="年级列表" nzIcon="年级列表">
-        <ul>
-          <li nz-menu-item>
-            <a routerLink="/video-list">一年级</a>
-          </li> 
-          <li nz-menu-item>
-            <a routerLink="/video-list">二年级</a>
-          </li> 
-          <li nz-menu-item>
-            <a routerLink="/video-list">三年级</a>
-          </li>   
-        </ul>
-      </li>   -->
       
-      <li nz-submenu nzTitle="{{menu.name}}" nzIcon="desktop">
+      <li nz-submenu nzTitle="{{menu.name}}" nzIcon="desktop" nzOpen>
         <ul *ngFor="let submenu of submenus | async">
           <li nz-menu-item><a [routerLink]="['/video-list', menu.type,submenu.type]">{{submenu.name}}</a></li>       
         </ul>

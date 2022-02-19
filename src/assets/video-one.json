@@ -13,6 +13,14 @@
       {
         "name": "趣味识字（三）——偏旁识字1",
         "url": "//player.bilibili.com/player.html?aid=636576883&bvid=BV1Eb4y147GZ&cid=510081684&page=1"
+      },
+      {
+        "name": "语文-识字1 春夏秋冬（第二课时）",
+        "url": "//player.bilibili.com/player.html?aid=636518306&bvid=BV1fb4y1x7Y2&cid=510704805&page=1"
+      },
+      {
+        "name": "语文-识字2 姓氏歌（第一课时）-20220218",
+        "url": "//player.bilibili.com/player.html?aid=894204224&bvid=BV1aP4y1F78V&cid=511470828&page=1"
       }
     ]
   },
@@ -30,6 +38,14 @@
       {
         "name": "20以内的退位减法3",
         "url": "//player.bilibili.com/player.html?aid=679119609&bvid=BV1Fm4y1o7DS&cid=510085105&page=1"
+      },
+      {
+        "name": "20以内的退位减法4",
+        "url": "//player.bilibili.com/player.html?aid=636529057&bvid=BV1Vb4y147K4&cid=510705364&page=1"
+      },
+      {
+        "name": "20以内的退位减法5",
+        "url": "//player.bilibili.com/player.html?aid=979149227&bvid=BV1Z44y1J7sr&cid=511472123&page=1"
       }
     ]
   },
@@ -43,6 +59,23 @@
       {
         "name": "Unit1 Let's count！(Fun time)",
         "url": "//player.bilibili.com/player.html?aid=594016233&bvid=BV1pq4y187y9&cid=510083629&page=1"
+      },
+      {
+        "name": "英语-Unit1 Let's count！(Letter time & Rhyme time)",
+        "url": "//player.bilibili.com/player.html?aid=679224975&bvid=BV1Qm4y197fw&cid=511471493&page=1"
+      }     
+    ]
+  },
+  {
+    "type": "kexue",
+    "videos": [
+      {
+        "name": "科学-发现物体的特征-20220215",
+        "url": "//player.bilibili.com/player.html?aid=681574116&bvid=BV1GS4y1V71U&cid=510914450&page=1"
+      },
+      {
+        "name": "科学-谁轻谁重-20220217",
+        "url": "//player.bilibili.com/player.html?aid=766556896&bvid=BV1Br4y1674y&cid=510916842&page=1"
       }     
     ]
   }
