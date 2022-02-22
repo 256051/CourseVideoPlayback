@@ -4,6 +4,8 @@ Demo:  [http://182.61.40.232/](http://182.61.40.232)
 
 Json数据存储，没有用后端  
 
+视频存储在B站，用iframe站内引用  
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
 ## Development server
