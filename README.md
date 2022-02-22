@@ -1,4 +1,8 @@
-# VideoProject
+# 网课视频回放  
+
+Demo:  [http://182.61.40.232/](http://182.61.40.232)  
+
+Json数据存储，没有用后端  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
