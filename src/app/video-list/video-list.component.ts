@@ -21,16 +21,18 @@ export class VideoListComponent implements OnInit {
   type2:string|undefined;
 
   menus = this.menuService.getMenus();
+
   submenus = this.menuService.getSubMenus();
-  videos= this.videoService.getOneVideos();  
-  
+ 
+
+
   constructor(
     private route: ActivatedRoute,
     private menuService: MenuService,
     private videoService: VideoService,
   ) {
 
-    
+     // this.videos=new Array<VideoDto>();
   }
 
   ngOnInit(): void {
@@ -49,24 +51,12 @@ export class VideoListComponent implements OnInit {
         
       });
 
-   
-      if(this.type1==="one"){
-          this.videos.subscribe((params)=>{
-            const video= params.find(x=>x.type== this.type2);
-            this.videoList= video?.videos;
-            
-            console.log(this.videoList);
-        });
-      }
-
-      if(this.type1==="two"){
-        console.log("2")  
-      }
-
-      if(this.type1==="three"){
-        console.log("3")  
-      }
+      const videos= this.videoService.getVideos(this.type1);
       
+      videos.subscribe((params)=>{
+        const video= params.find(x=>x.type== this.type2);
+        this.videoList= video?.videos;
+    });
 
 
      

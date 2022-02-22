@@ -13,23 +13,7 @@
       {
         "name": "趣味识字（三）——偏旁识字1",
         "url": "//player.bilibili.com/player.html?aid=636576883&bvid=BV1Eb4y147GZ&cid=510081684&page=1"
-      },
-      {
-        "name": "语文-识字1 春夏秋冬（第二课时）",
-        "url": "//player.bilibili.com/player.html?aid=636518306&bvid=BV1fb4y1x7Y2&cid=510704805&page=1"
-      },
-      {
-        "name": "语文-识字2 姓氏歌（第一课时）-20220218",
-        "url": "//player.bilibili.com/player.html?aid=894204224&bvid=BV1aP4y1F78V&cid=511470828&page=1"
-      },
-      {
-        "name": "语文-识字2 姓氏歌（第二课时）20220221",
-        "url": "//player.bilibili.com/player.html?aid=766707187&bvid=BV1sr4y1r7Cq&cid=513594086&page=1"
-      },
-      {
-        "name": "语文识字3 小青蛙（第一课时）20220222",
-        "url": "//player.bilibili.com/player.html?aid=551653548&bvid=BV1Ki4y127ix&cid=514467765&page=1"
-      }
+      }    
     ]
   },
   {
@@ -46,23 +30,7 @@
       {
         "name": "20以内的退位减法3",
         "url": "//player.bilibili.com/player.html?aid=679119609&bvid=BV1Fm4y1o7DS&cid=510085105&page=1"
-      },
-      {
-        "name": "20以内的退位减法4",
-        "url": "//player.bilibili.com/player.html?aid=636529057&bvid=BV1Vb4y147K4&cid=510705364&page=1"
-      },
-      {
-        "name": "20以内的退位减法5",
-        "url": "//player.bilibili.com/player.html?aid=979149227&bvid=BV1Z44y1J7sr&cid=511472123&page=1"
-      },
-      {
-        "name": "数学-20以内的退位减法6",
-        "url": "//player.bilibili.com/player.html?aid=636661455&bvid=BV1Xb4y147UE&cid=513606237&page=1"
-      },
-      {
-        "name": "数学-20以内的退位减法7-20220222",
-        "url": "//player.bilibili.com/player.html?aid=509172197&bvid=BV1cu411X7L1&cid=514470702&page=1"
-      }
+      }     
     ]
   },
   {
@@ -81,9 +49,9 @@
         "url": "//player.bilibili.com/player.html?aid=679224975&bvid=BV1Qm4y197fw&cid=511471493&page=1"
       },
       {
-        "name": "Unit1 Let's count!(Extended Reading)",
-        "url": "//player.bilibili.com/player.html?aid=424202296&bvid=BV1t3411L76f&cid=513592363&page=1"
-      }
+        "name":"Unit1 Let's count!(Extended Reading)",
+        "url":"//player.bilibili.com/player.html?aid=424202296&bvid=BV1t3411L76f&cid=513592363&page=1"
+      }     
     ]
   },
   {
@@ -96,11 +64,7 @@
       {
         "name": "科学-谁轻谁重-20220217",
         "url": "//player.bilibili.com/player.html?aid=766556896&bvid=BV1Br4y1674y&cid=510916842&page=1"
-      },
-      {
-        "name": "科学-认识物体的形状-20220222",
-        "url": "//player.bilibili.com/player.html?aid=894130074&bvid=BV1DP4y1w7Qx&cid=514468132&page=1"
-      }
+      }     
     ]
   }
 ]

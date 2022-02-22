@@ -9,7 +9,7 @@ export class VideoService {
 
   constructor(private http: HttpClient) {}
 
-  getOneVideos() {
-    return this.http.get<Array<VideoDto>>('/assets/video-one.json');
-  }
+  getVideos(name:any) {   
+    return this.http.get<Array<VideoDto>>('/assets/video-'+name+'.json');
+  } 
 }

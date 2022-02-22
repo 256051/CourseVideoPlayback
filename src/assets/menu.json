@@ -1,6 +1,10 @@
 [
-    {
-      "type": "one",
-      "name":"一年级"
-    }
-  ]
+  {
+    "type": "one",
+    "name": "一年级"
+  },
+  {
+    "type": "three",
+    "name": "三年级"
+  }
+]

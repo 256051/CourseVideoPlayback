@@ -11,7 +11,7 @@ import { VideoService } from '../service/video.service';
 })
 export class VideoPlayerComponent implements OnInit {
   // url: string | undefined;
-  videos = this.videoService.getOneVideos();
+ // videos = this.videoService.getVideos();
   url: string | undefined;
 
   menu: menuDto | undefined;
@@ -41,8 +41,8 @@ export class VideoPlayerComponent implements OnInit {
       this.submenus.subscribe((params) => {
         this.submenu = params.find((x) => x.type == this.type2);
       });
-
-      this.videos.subscribe((params) => {
+      const videos= this.videoService.getVideos(this.type1);
+      videos.subscribe((params) => {
         const video = params.find((x) => x.type == this.type2);
         this.url = video?.videos.find((x) => x.name == name)?.url;
         //this.controllerSrc = this.getSafeUrl();
