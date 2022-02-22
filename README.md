@@ -2,6 +2,8 @@
 
 Demo:  [http://182.61.40.232/](http://182.61.40.232)  
 
+前端框架：NG-ZORRO [https://ng.ant.design/components/overview/zh](https://ng.ant.design/components/overview/zh)  
+
 Json数据存储，没有用后端  
 
 视频存储在B站，用iframe站内引用  
