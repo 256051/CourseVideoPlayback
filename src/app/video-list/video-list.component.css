@@ -11,3 +11,12 @@
     background: #0092ff;
     border-radius: 4px;
   }
+  .waterfall-container {
+    /*分几列*/
+    column-count: 1;
+  }
+
+  .waterfall-item {
+    /*不留白，不知道什么意思可以取消这个样式试试*/
+    break-inside: avoid;
+  }

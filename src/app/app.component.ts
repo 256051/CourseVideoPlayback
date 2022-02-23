@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MenuService } from 'src/app/service/menu.service';
+import { UtilsService } from './service/utils.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,36 +8,16 @@ import { MenuService } from 'src/app/service/menu.service';
 })
 export class AppComponent {
   isCollapsed = false;
-  constructor(private menuService: MenuService) {
-
-    const isPc= this.isPC();
-debugger;
-    console.log(isPc);
-  }
+  isPc = false;
+  constructor(
+    private menuService: MenuService,
+    private utilsService: UtilsService
+  ) {}
 
   menus = this.menuService.getMenus();
   submenus = this.menuService.getSubMenus();
 
-
-
-  isPC() {
-    //是否为PC端
-    var userAgentInfo = navigator.userAgent;
-    var Agents = [
-      'Android',
-      'iPhone',
-      'SymbianOS',
-      'Windows Phone',
-      'iPad',
-      'iPod',
-    ];
-    var flag = true;
-    for (var v = 0; v < Agents.length; v++) {
-      if (userAgentInfo.indexOf(Agents[v]) > 0) {
-        flag = false;
-        break;
-      }
-    }
-    return flag;
+  ngOnInit(): void {
+    this.isPc= this.utilsService.isPC();
   }
 }

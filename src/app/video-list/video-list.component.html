@@ -5,15 +5,38 @@
 </nz-breadcrumb>
 
 <ng-template #coverTemplate>
-  <img style="width: 100%;"
+  <img
+    style="width: 100%"
     alt="example"
-    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+    src="../../assets/img/JiqGstEfoWAOHiTxclqi.png"
   />
 </ng-template>
 
-<div style="background: #ececec; padding: 20px">
+<div style="background: #ececec; padding: 20px" *ngIf="isPc">
   <div nz-row [nzGutter]="[hGutter, vGutter]">
     <div nz-col [nzSpan]="6" *ngFor="let video of videoList">
+      <a
+        [routerLink]="['/video-play', type1, type2, video.name]"
+        routerLinkActive="router-link-active"
+      >
+        <nz-card
+          nzHoverable
+          style="width: 100%"
+          [nzCover]="coverTemplate"
+          nzSize="small"
+        >
+          <nz-card-meta
+            nzTitle="{{ video.name }}"
+            nzDescription="{{ video.name }}"
+          ></nz-card-meta>
+        </nz-card>
+      </a>
+    </div>
+  </div>
+</div>
+<div style="background: #ececec; padding: 20px" *ngIf="!isPc">
+  <div class="waterfall-container">
+    <div class="waterfall-item" *ngFor="let video of videoList">
       <a
         [routerLink]="['/video-play', type1, type2, video.name]"
         routerLinkActive="router-link-active"

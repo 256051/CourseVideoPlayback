@@ -26,7 +26,7 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 import { VideoPlayerComponent } from './video-player/video-player.component';
 import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 import { SafePipe } from './service/safePipe';
-
+import { NzListModule } from 'ng-zorro-antd/list';
 registerLocaleData(zh);
 
 @NgModule({
@@ -54,7 +54,8 @@ registerLocaleData(zh);
     NoopAnimationsModule,
     NzIconModule,
     NzGridModule,
-    NzBreadCrumbModule
+    NzBreadCrumbModule,
+    NzListModule
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]

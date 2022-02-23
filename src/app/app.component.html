@@ -4,14 +4,14 @@
             nzWidth="256px"
             nzBreakpoint="md"
             [(nzCollapsed)]="isCollapsed"
-            [nzTrigger]="null">
+            [nzTrigger]="null" *ngIf="isPc" >
     <div class="sidebar-logo">
       <a>
         <img src="https://ng.ant.design/assets/img/logo.svg" alt="logo">
         <h1>录播课程</h1>
       </a>
     </div>
-    <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed" >
+    <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
       <li nz-submenu nzOpen nzTitle="年级列表" nzIcon="desktop" >
         <ul  *ngFor="let menu of menus | async" >
           <li nz-menu-group nzTitle="{{menu.name}}" >
@@ -26,13 +26,24 @@
   <nz-layout>
     <nz-header>
       <div class="app-header">
-        <span class="header-trigger" (click)="isCollapsed = !isCollapsed">
+        <span class="header-trigger" (click)="isCollapsed = !isCollapsed" *ngIf="isPc" >
             <i class="trigger"
                nz-icon
                [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
             ></i>
         </span>
-      </div>
+        <ul nz-menu nzMode="horizontal" *ngIf="!isPc">
+          <li nz-submenu nzTitle="年级列表" nzIcon="desktop">
+            <ul *ngFor="let menu of menus | async" >
+              <li nz-menu-group nzTitle="{{menu.name}}">
+                <ul *ngFor="let submenu of submenus | async">
+                  <li nz-menu-item nzMatchRouter><a [routerLink]="['/video-list', menu.type,submenu.type]">{{submenu.name}}</a></li>   
+                </ul>
+              </li>            
+            </ul>
+          </li>        
+        </ul>
+      </div>   
     </nz-header>
     <nz-content>
       <div class="inner-content">
