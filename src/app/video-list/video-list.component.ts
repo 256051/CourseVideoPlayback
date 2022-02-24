@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MenuService } from 'src/app/service/menu.service';
 import { menuDto, submenuDto } from '../interface/menus';
@@ -12,61 +12,75 @@ import { VideoService } from '../service/video.service';
   styleUrls: ['./video-list.component.css'],
 })
 export class VideoListComponent implements OnInit {
-  hGutter = 16;
-  vGutter = 16;
-  isPc=false;
+  hGutter = 16 + 8 * 1;
+  vGutter = 16 + 8 * 1;
+  nSpan = 4;
+  isPc = false;
+  screenHeight = 0;
+  screenWidth = 0;
 
   menu: menuDto | undefined;
   submenu: submenuDto | undefined;
-  videoList: Array<Video>|undefined;
-  type1:string|undefined;
-  type2:string|undefined;
-  
+  videoList: Array<Video> | undefined;
+  type1: string | undefined;
+  type2: string | undefined;
 
   constructor(
     private route: ActivatedRoute,
     private menuService: MenuService,
     private videoService: VideoService,
-    private utilsService:UtilsService
+    private utilsService: UtilsService
   ) {
+    this.getScreenSize();
 
-     // this.videos=new Array<VideoDto>();
+    // this.videos=new Array<VideoDto>();
   }
 
   menus = this.menuService.getMenus();
-  submenus = this.menuService.getSubMenus();  
- 
+  submenus = this.menuService.getSubMenus();
+
   ngOnInit(): void {
-    this.isPc= this.utilsService.isPC();
-    
+    this.isPc = this.utilsService.isPC();
+
     console.log(this.isPc);
     this.route.params.subscribe((params) => {
       this.type1 = params['type1'];
       this.type2 = params['type2'];
 
       this.menus.subscribe((params) => {
-          this.menu = params.find((x) => x.type == this.type1);
-          console.log(this.menu);     
-        });
-      
-        this.submenus.subscribe((params) => {
-          this.submenu = params.find((x) => x.type == this.type2);
-          console.log(this.submenu);        
-        
+        this.menu = params.find((x) => x.type == this.type1);
+        console.log(this.menu);
       });
 
-      const videos= this.videoService.getVideos(this.type1);
-      
-      videos.subscribe((params)=>{
-        const video= params.find(x=>x.type== this.type2);
-        this.videoList= video?.videos;
+      this.submenus.subscribe((params) => {
+        this.submenu = params.find((x) => x.type == this.type2);
+        console.log(this.submenu);
+      });
+
+      const videos = this.videoService.getVideos(this.type1);
+
+      videos.subscribe((params) => {
+        const video = params.find((x) => x.type == this.type2);
+        this.videoList = video?.videos;
+      });
     });
+  }
 
-
-     
-      
-
-    });
-    
+  @HostListener('window:resize', ['$event'])
+  getScreenSize(eventName?: string) {
+    this.screenHeight = window.innerHeight;
+    this.screenWidth = window.innerWidth;
+    // console.log(this.screenWidth);
+   
+    if (this.screenWidth <= 820) {
+      this.hGutter = 16;
+      this.vGutter = 16;
+      this.nSpan = 6;
+    }
+    else{
+      this.hGutter = 32;
+      this.vGutter = 32;
+      this.nSpan=4;
+    }
   }
 }

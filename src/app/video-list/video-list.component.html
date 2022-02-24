@@ -14,14 +14,14 @@
 
 <div style="background: #ececec; padding: 20px" *ngIf="isPc">
   <div nz-row [nzGutter]="[hGutter, vGutter]">
-    <div nz-col [nzSpan]="6" *ngFor="let video of videoList">
+    <div nz-col [nzSpan]="nSpan" *ngFor="let video of videoList">
       <a
         [routerLink]="['/video-play', type1, type2, video.name]"
         routerLinkActive="router-link-active"
       >
         <nz-card
           nzHoverable
-          style="width: 100%"
+          class="content"
           [nzCover]="coverTemplate"
           nzSize="small"
         >
