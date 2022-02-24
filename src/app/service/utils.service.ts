@@ -18,7 +18,7 @@ export class UtilsService {
       'Windows Phone',     
       'iPod',
     ];
-    var flag = true;
+    let flag = true;
     for (var v = 0; v < Agents.length; v++) {
       if (userAgentInfo.indexOf(Agents[v]) > 0) {
         flag = false;

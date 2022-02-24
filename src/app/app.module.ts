@@ -34,7 +34,7 @@ registerLocaleData(zh);
     AppComponent,
     VideoListComponent,
     VideoPlayerComponent,
-    SafePipe
+    SafePipe,
   ],
   imports: [
     BrowserModule,
