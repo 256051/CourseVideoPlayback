@@ -12,7 +12,6 @@
   />
 </ng-template>
 
-<div>
   <div nz-row [nzGutter]="[hGutter, vGutter]">
     <div nz-col [nzSpan]="nSpan" *ngFor="let video of videoList">
       <a
@@ -33,21 +32,3 @@
       </a>
     </div>
   </div>
-</div>
-<!-- <div style="background: #ececec; width: 85%; padding:0px" *ngIf="!isPc">
-  <div class="waterfall-container">
-    <div class="waterfall-item" *ngFor="let video of videoList">
-      <a
-        [routerLink]="['/video-play', type1, type2, video.name]"
-        routerLinkActive="router-link-active"
-      >
-        <nz-card nzHoverable style="width: 100%" [nzCover]="coverTemplate">
-          <nz-card-meta
-            nzTitle="{{ video.name }}"
-            nzDescription="{{ video.name }}"
-          ></nz-card-meta>
-        </nz-card>
-      </a>
-    </div>
-  </div>
-</div> -->
