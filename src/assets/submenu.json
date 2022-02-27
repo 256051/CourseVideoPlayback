@@ -14,5 +14,8 @@
     {
       "type":"kexue",
       "name":"科学"
+    },{
+      "type":"meishu",
+      "name":"美术"
     }
   ]

@@ -17,6 +17,10 @@
       {
         "name": "园地一（第一课时）-20220225",
         "url": "//player.bilibili.com/player.html?aid=894370264&bvid=BV1eP4y1c7CJ&cid=516128992&page=1"
+      },
+      {
+        "name":"-语文园地一（第二课时）-20220228",
+        "url":"//player.bilibili.com/player.html?aid=679412759&bvid=BV1Sm4y1R7QS&cid=518381678&page=1"
       }
     ]
   },
@@ -38,6 +42,10 @@
       {
         "name":"练习二（4-8）-20220225",
         "url":"//player.bilibili.com/player.html?aid=679296281&bvid=BV1Vm4y1R7c1&cid=516128239&page=1"
+      },
+      {
+        "name":"两位数乘两位数（复习1-7）-20220228",
+        "url":"//player.bilibili.com/player.html?aid=211940789&bvid=BV1Ka411h79m&cid=518381258&page=1"
       }
     ]
   },
@@ -50,6 +58,10 @@
       },{
         "name":"Unit1 In class(Writing)-20220225",
         "url":"//player.bilibili.com/player.html?aid=809266134&bvid=BV1e34y1r7RW&cid=516128683&page=1"
+      },
+      {
+        "name":"Unit 2 In the library (Story time)-20220228",
+        "url":"//player.bilibili.com/player.html?aid=809465226&bvid=BV1i34y1k7yU&cid=518382062&page=1"
       }
     ]
   },
@@ -63,6 +75,15 @@
       {
         "name": "物体在斜面上运动-20220224",
         "url": "//player.bilibili.com/player.html?aid=979281083&bvid=BV1B44y1n7FG&cid=515500605&page=1"
+      }
+    ]
+  },
+  {
+    "type": "meishu",
+    "videos": [
+      {
+        "name": "美术-《橙色的画》-20220228",
+        "url": "//player.bilibili.com/player.html?aid=211989712&bvid=BV1aa411h7uN&cid=518359081&page=1"
       }
     ]
   }

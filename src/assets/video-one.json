@@ -41,6 +41,10 @@
       {
         "name": "识字4 猜字谜（第二课时）-20220225",
         "url": "//player.bilibili.com/player.html?aid=424329257&bvid=BV1T3411j7xb&cid=516125515&page=1"
+      },
+      {
+        "name":"语文园地一（一）-20220228",
+        "url":"//player.bilibili.com/player.html?aid=296978970&bvid=BV1xF411b76T&cid=518358675&page=1"
       }
     ]
   },
@@ -86,6 +90,10 @@
       {
         "name": "数学-整理与复习2-20220225",
         "url": "//player.bilibili.com/player.html?aid=339321906&bvid=BV1uR4y157ZH&cid=516124697&page=1"
+      },
+      {
+        "name":"数学-20以内退位减法阶段性练习 （第一课时）-20220228",
+        "url":"//player.bilibili.com/player.html?aid=211978254&bvid=BV1ta411h7LA&cid=518357769&page=1"
       }
     ]
   },
@@ -115,6 +123,10 @@
       {
         "name": "Unit1 Let's count!(Extended Reading)-20220225",
         "url": "//player.bilibili.com/player.html?aid=681823061&bvid=BV1PS4y1c7gQ&cid=516125084&page=1"
+      },
+      {
+        "name":"Unit 2 This is my pencil (Story time)-20220228",
+        "url":"//player.bilibili.com/player.html?aid=339483597&bvid=BV17R4y1G7tP&cid=518358261&page=1"
       }
     ]
   },
@@ -136,6 +148,15 @@
       {
         "name": "科学-给物体分类-20220224",
         "url": "//player.bilibili.com/player.html?aid=894273549&bvid=BV1AP4y1c7Xn&cid=515495417&page=1"
+      }
+    ]
+  },
+  {
+    "type": "meishu",
+    "videos": [
+      {
+        "name": "美术-《橙色的画》-20220228",
+        "url": "//player.bilibili.com/player.html?aid=211989712&bvid=BV1aa411h7uN&cid=518359081&page=1"
       }
     ]
   }
