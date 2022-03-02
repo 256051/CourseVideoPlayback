@@ -49,6 +49,9 @@
       {
         "name":"语文园地一（二）20220301",
         "url":"//player.bilibili.com/player.html?aid=466958711&bvid=BV14L411N7cE&cid=519243295&page=1"
+      },{
+        "name":"快乐读书吧：读读童谣和儿歌-20220302",
+        "url":"//player.bilibili.com/player.html?aid=381947612&bvid=BV1mZ4y167my&cid=700348989&page=1"
       }
     ]
   },
@@ -102,6 +105,10 @@
       {
         "name":"数学-20以内退位减法阶段性练习评讲 （第二课时）20220301",
         "url":"//player.bilibili.com/player.html?aid=851955875&bvid=BV1jL4y1375P&cid=519243105&page=1"
+      },
+      {
+        "name":"认识长方形、正方形、圆 和三角形-20220302",
+        "url":"//player.bilibili.com/player.html?aid=766979601&bvid=BV1Kr4y1671w&cid=700349184&page=1"
       }
     ]
   },
@@ -135,6 +142,9 @@
       {
         "name":"Unit 2 This is my pencil (Story time)-20220228",
         "url":"//player.bilibili.com/player.html?aid=339483597&bvid=BV17R4y1G7tP&cid=518358261&page=1"
+      },{
+        "name":"Unit 2 This is my pencil (Fun time & Song time)-20220302",
+        "url":"//player.bilibili.com/player.html?aid=636918739&bvid=BV1ab4y1x7wS&cid=700349461&page=1"
       }
     ]
   },
@@ -169,6 +179,15 @@
       {
         "name": "美术-《橙色的画》-20220228",
         "url": "//player.bilibili.com/player.html?aid=211989712&bvid=BV1aa411h7uN&cid=518359081&page=1"
+      }
+    ]
+  },
+  {
+    "type": "laodong",
+    "videos": [
+      {
+        "name": "劳动《DIY冰墩墩》-20220302",
+        "url": "//player.bilibili.com/player.html?aid=296990836&bvid=BV18F411b7uD&cid=700349303&page=1"
       }
     ]
   }

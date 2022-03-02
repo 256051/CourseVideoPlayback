@@ -9,7 +9,7 @@
       {
         "name": "古诗三首 三衢道中-20220223",
         "url": "//player.bilibili.com/player.html?aid=894344762&bvid=BV1sP4y1c7xL&cid=514881383&page=1"
-      }      ,
+      },
       {
         "name": "习作：我的植物朋友-20220224",
         "url": "//player.bilibili.com/player.html?aid=724353655&bvid=BV1wS4y167Mb&cid=515499838&page=1"
@@ -19,12 +19,16 @@
         "url": "//player.bilibili.com/player.html?aid=894370264&bvid=BV1eP4y1c7CJ&cid=516128992&page=1"
       },
       {
-        "name":"-语文园地一（第二课时）-20220228",
-        "url":"//player.bilibili.com/player.html?aid=679412759&bvid=BV1Sm4y1R7QS&cid=518381678&page=1"
+        "name": "-语文园地一（第二课时）-20220228",
+        "url": "//player.bilibili.com/player.html?aid=679412759&bvid=BV1Sm4y1R7QS&cid=518381678&page=1"
       },
       {
-        "name":"守株待兔（第一课时）20220301",
-        "url":"//player.bilibili.com/player.html?aid=979458258&bvid=BV1d44y1T7ca&cid=519250080&page=1"
+        "name": "守株待兔（第一课时）20220301",
+        "url": "//player.bilibili.com/player.html?aid=979458258&bvid=BV1d44y1T7ca&cid=519250080&page=1"
+      },
+      {
+        "name": "课文5 守株待兔（第二课时）-20220302",
+        "url": "//player.bilibili.com/player.html?aid=424446173&bvid=BV1g341157yF&cid=700356209&page=1"
       }
     ]
   },
@@ -44,16 +48,20 @@
         "url": "//player.bilibili.com/player.html?aid=424265434&bvid=BV123411L7Ce&cid=515500418&page=1"
       },
       {
-        "name":"练习二（4-8）-20220225",
-        "url":"//player.bilibili.com/player.html?aid=679296281&bvid=BV1Vm4y1R7c1&cid=516128239&page=1"
+        "name": "练习二（4-8）-20220225",
+        "url": "//player.bilibili.com/player.html?aid=679296281&bvid=BV1Vm4y1R7c1&cid=516128239&page=1"
       },
       {
-        "name":"两位数乘两位数（复习1-7）-20220228",
-        "url":"//player.bilibili.com/player.html?aid=211940789&bvid=BV1Ka411h79m&cid=518381258&page=1"
+        "name": "两位数乘两位数（复习1-7）-20220228",
+        "url": "//player.bilibili.com/player.html?aid=211940789&bvid=BV1Ka411h79m&cid=518381258&page=1"
       },
       {
-        "name":"两位数乘两位数（复习8-15）20220301",
-        "url":"//player.bilibili.com/player.html?aid=594459435&bvid=BV14q4y147wq&cid=519250576&page=1"
+        "name": "两位数乘两位数（复习8-15）20220301",
+        "url": "//player.bilibili.com/player.html?aid=594459435&bvid=BV14q4y147wq&cid=519250576&page=1"
+      },
+      {
+        "name": "有趣的乘法计算-20220302",
+        "url": "//player.bilibili.com/player.html?aid=339411435&bvid=BV1BR4y157P9&cid=700356398&page=1"
       }
     ]
   },
@@ -63,13 +71,18 @@
       {
         "name": "Unit1 In class(Extended Reading)-20220223",
         "url": "//player.bilibili.com/player.html?aid=766793135&bvid=BV1Fr4y1z7CY&cid=514881192&page=1"
-      },{
-        "name":"Unit1 In class(Writing)-20220225",
-        "url":"//player.bilibili.com/player.html?aid=809266134&bvid=BV1e34y1r7RW&cid=516128683&page=1"
       },
       {
-        "name":"Unit 2 In the library (Story time)-20220228",
-        "url":"//player.bilibili.com/player.html?aid=809465226&bvid=BV1i34y1k7yU&cid=518382062&page=1"
+        "name": "Unit1 In class(Writing)-20220225",
+        "url": "//player.bilibili.com/player.html?aid=809266134&bvid=BV1e34y1r7RW&cid=516128683&page=1"
+      },
+      {
+        "name": "Unit 2 In the library (Story time)-20220228",
+        "url": "//player.bilibili.com/player.html?aid=809465226&bvid=BV1i34y1k7yU&cid=518382062&page=1"
+      },
+      {
+        "name": "英语Unit 2 In the library (Fun time & Sound time)-20220302",
+        "url": "//player.bilibili.com/player.html?aid=681900710&bvid=BV12U4y1Z7p8&cid=700356538&page=1"
       }
     ]
   },
@@ -85,8 +98,8 @@
         "url": "//player.bilibili.com/player.html?aid=979281083&bvid=BV1B44y1n7FG&cid=515500605&page=1"
       },
       {
-        "name":"比较相同距离内运动的快慢-20220301",
-        "url":"//player.bilibili.com/player.html?aid=681991555&bvid=BV1VU4y1f724&cid=519249598&page=1"
+        "name": "比较相同距离内运动的快慢-20220301",
+        "url": "//player.bilibili.com/player.html?aid=681991555&bvid=BV1VU4y1f724&cid=519249598&page=1"
       }
     ]
   },
@@ -96,6 +109,15 @@
       {
         "name": "美术-《橙色的画》-20220228",
         "url": "//player.bilibili.com/player.html?aid=211989712&bvid=BV1aa411h7uN&cid=518359081&page=1"
+      }
+    ]
+  },
+  {
+    "type": "laodong",
+    "videos": [
+      {
+        "name": "劳动《DIY冰墩墩》-20220302",
+        "url": "//player.bilibili.com/player.html?aid=296990836&bvid=BV18F411b7uD&cid=700349303&page=1"
       }
     ]
   }

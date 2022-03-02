@@ -1,21 +1,26 @@
 [
-    {
-      "type": "yuwen",
-      "name":"语文"
-    },
-    {
-      "type": "shuxue",
-      "name":"数学"
-    },
-    {
-      "type": "yingyu",
-      "name":"英语"
-    },
-    {
-      "type":"kexue",
-      "name":"科学"
-    },{
-      "type":"meishu",
-      "name":"美术"
-    }
-  ]
+  {
+    "type": "yuwen",
+    "name": "语文"
+  },
+  {
+    "type": "shuxue",
+    "name": "数学"
+  },
+  {
+    "type": "yingyu",
+    "name": "英语"
+  },
+  {
+    "type": "kexue",
+    "name": "科学"
+  },
+  {
+    "type": "meishu",
+    "name": "美术"
+  },
+  {
+    "type": "laodong",
+    "name": "劳动"
+  }
+]
