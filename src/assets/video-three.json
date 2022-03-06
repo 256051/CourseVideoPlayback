@@ -29,6 +29,14 @@
       {
         "name": "课文5 守株待兔（第二课时）-20220302",
         "url": "//player.bilibili.com/player.html?aid=424446173&bvid=BV1g341157yF&cid=700356209&page=1"
+      },
+      {
+        "name":"课文6 陶罐和铁罐（第一课时）-20220303",
+        "url":"//player.bilibili.com/player.html?aid=381894595&bvid=BV1GZ4y1C79S&cid=540462473&page=1"
+      },
+      {
+        "name":"课文6 陶罐和铁罐（第二课时）-20220304",
+        "url":"//player.bilibili.com/player.html?aid=809456134&bvid=BV1e34y1k7yA&cid=541042350&page=1"
       }
     ]
   },
@@ -62,6 +70,14 @@
       {
         "name": "有趣的乘法计算-20220302",
         "url": "//player.bilibili.com/player.html?aid=339411435&bvid=BV1BR4y157P9&cid=700356398&page=1"
+      },
+      {
+        "name":"两位数乘两位数的实际运用-20330303",
+        "url":"//player.bilibili.com/player.html?aid=594494355&bvid=BV1tq4y147Uz&cid=540462742&page=1"
+      },
+      {
+        "name":"有趣的算式谜20220304",
+        "url":"//player.bilibili.com/player.html?aid=381917785&bvid=BV1nZ4y1C7tq&cid=541045414&page=1"
       }
     ]
   },
@@ -83,6 +99,10 @@
       {
         "name": "英语Unit 2 In the library (Fun time & Sound time)-20220302",
         "url": "//player.bilibili.com/player.html?aid=681900710&bvid=BV12U4y1Z7p8&cid=700356538&page=1"
+      },
+      {
+        "name":"Unit 2 In the library (Cartoon time & Song time)-20220304",
+        "url":"//player.bilibili.com/player.html?aid=466913708&bvid=BV1GL411N7ie&cid=541041969&page=1"
       }
     ]
   },
@@ -100,6 +120,10 @@
       {
         "name": "比较相同距离内运动的快慢-20220301",
         "url": "//player.bilibili.com/player.html?aid=681991555&bvid=BV1VU4y1f724&cid=519249598&page=1"
+      },
+      {
+        "name":"比较相同时间内运动的快慢20220303",
+        "url":"//player.bilibili.com/player.html?aid=936949145&bvid=BV1bT4y1S7Vj&cid=540462531&page=1"
       }
     ]
   },
@@ -118,6 +142,15 @@
       {
         "name": "劳动《DIY冰墩墩》-20220302",
         "url": "//player.bilibili.com/player.html?aid=296990836&bvid=BV18F411b7uD&cid=700349303&page=1"
+      }
+    ]
+  },
+  {
+    "type": "yinyue",
+    "videos": [
+      {
+        "name": "花好月圆-20220304",
+        "url": "//player.bilibili.com/player.html?aid=809486860&bvid=BV1k34y1k7Bf&cid=541042707&page=1"
       }
     ]
   }

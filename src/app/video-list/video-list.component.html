@@ -12,23 +12,31 @@
   />
 </ng-template>
 
-  <div nz-row [nzGutter]="[hGutter, vGutter]">
-    <div nz-col [nzSpan]="nSpan" *ngFor="let video of videoList">
-      <a
-        [routerLink]="['/video-play', type1, type2, video.name]"
-        routerLinkActive="router-link-active"
+<div nz-row [nzGutter]="[hGutter, vGutter]">
+  <div nz-col [nzSpan]="nSpan" *ngFor="let video of videoList">
+    <a
+      [routerLink]="['/video-play', type1, type2, video.name]"
+      routerLinkActive="router-link-active"
+    >
+      <nz-card
+        nzHoverable
+        class="content"
+        [nzCover]="coverTemplate"
+        nzSize="small"
       >
-        <nz-card
-          nzHoverable
-          class="content"
-          [nzCover]="coverTemplate"
-          nzSize="small"
-        >
-          <nz-card-meta
-            nzTitle="{{ video.name }}"
-            nzDescription="{{ video.name }}"
-          ></nz-card-meta>
-        </nz-card>
-      </a>
-    </div>
+        <nz-card-meta
+          nzTitle="{{ video.name }}"
+          nzDescription="{{ video.name }}"
+        ></nz-card-meta>
+      </nz-card>
+    </a>
   </div>
+</div>
+<nz-pagination
+  [nzPageIndex]="pageIndex"
+  [nzTotal]="total"
+  nzShowSizeChanger
+  [nzPageSize]="pageSize"
+  (nzPageIndexChange)="pageChange($event)"
+  (nzPageSizeChange)="pageSizeChange($event)"
+></nz-pagination>

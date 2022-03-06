@@ -22,5 +22,9 @@
   {
     "type": "laodong",
     "name": "劳动"
+  },
+  {
+    "type": "yinyue",
+    "name": "音乐"
   }
 ]

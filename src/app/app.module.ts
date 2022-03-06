@@ -21,6 +21,7 @@ import { NzTypographyModule } from 'ng-zorro-antd/typography';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzSpaceModule } from 'ng-zorro-antd/space';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { NzPaginationModule } from 'ng-zorro-antd/pagination';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { VideoPlayerComponent } from './video-player/video-player.component';
@@ -55,7 +56,8 @@ registerLocaleData(zh);
     NzIconModule,
     NzGridModule,
     NzBreadCrumbModule,
-    NzListModule
+    NzListModule,
+    NzPaginationModule
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]

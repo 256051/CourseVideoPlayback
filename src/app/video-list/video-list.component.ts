@@ -17,10 +17,15 @@ export class VideoListComponent implements OnInit {
   nSpan = 4;
   screenHeight = 0;
   screenWidth = 0;
+  
+  pageIndex=1;
+  pageSize=12;  
+  total=0;
+  allList= Array<Video>();
 
   menu: menuDto | undefined;
   submenu: submenuDto | undefined;
-  videoList: Array<Video> | undefined;
+  videoList: Array<Video> | undefined; 
   type1: string | undefined;
   type2: string | undefined;
   //isPc: boolean|undefined;
@@ -59,9 +64,26 @@ export class VideoListComponent implements OnInit {
 
       videos.subscribe((params) => {
         const video = params.find((x) => x.type == this.type2);
-        this.videoList = video?.videos;
+        this.allList = (<Video[]>video?.videos).reverse();
+        this.total= Number( this.allList.length);
+        this.videoList= this.paginate( this.allList, this.pageIndex, this.pageSize);
       });
     });
+  }
+
+  paginate(array:Video[], page_number:number, page_size:number) {
+    // human-readable page numbers usually start with 1, so we reduce 1 in the first argument
+    return array.slice((page_number - 1) * page_size, page_number * page_size);
+  }
+
+  pageChange(event:number){
+     this.pageIndex= event;
+     this.videoList= this.paginate(this.allList, this.pageIndex, this.pageSize);
+  }
+
+  pageSizeChange(event:number){
+    this.pageSize= event;
+    this.videoList= this.paginate(this.allList, this.pageIndex, this.pageSize);
   }
 
   @HostListener('window:resize', ['$event'])
