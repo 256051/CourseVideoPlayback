@@ -28,6 +28,8 @@ import { VideoPlayerComponent } from './video-player/video-player.component';
 import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 import { SafePipe } from './service/safePipe';
 import { NzListModule } from 'ng-zorro-antd/list';
+import { NzNotificationModule } from 'ng-zorro-antd/notification';
+
 registerLocaleData(zh);
 
 @NgModule({
@@ -57,7 +59,8 @@ registerLocaleData(zh);
     NzGridModule,
     NzBreadCrumbModule,
     NzListModule,
-    NzPaginationModule
+    NzPaginationModule,
+    NzNotificationModule
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]
